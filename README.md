@@ -55,7 +55,7 @@ routes/web.php                           -> definisi route
 git clone https://github.com/danielpsrb/web-pengajuan-pembiayaan.git
 
 # clone / extract project, lalu masuk ke folder project
-cd coding-test-laravel
+cd web-pengajuan-pembiayaan
 
 # install dependency PHP
 composer install
@@ -80,8 +80,6 @@ php artisan db:seed        # opsional, mengisi beberapa contoh pengajuan
 ```bash
 php artisan serve
 ```
-
-Buka browser ke **http://localhost:8000** (otomatis diarahkan ke `/pengajuan`).
 
 ## Alur Penggunaan
 
