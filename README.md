@@ -45,12 +45,15 @@ routes/web.php                           -> definisi route
 
 ### 1. Prasyarat
 
-- PHP >= 8.3 dengan ekstensi `pdo_sqlite`
+- PHP >= 8.3
 - Composer
 
 ### 2. Instalasi
 
 ```bash
+# clone repository atau extract project
+git clone https://github.com/danielpsrb/web-pengajuan-pembiayaan.git
+
 # clone / extract project, lalu masuk ke folder project
 cd coding-test-laravel
 
@@ -65,7 +68,7 @@ php artisan key:generate
 
 ```
 
-### 3. Migrasi & Seeder (opsional, untuk contoh data)
+### 3. Migrasi & Seeder (untuk memuat data dummy)
 
 ```bash
 php artisan migrate
